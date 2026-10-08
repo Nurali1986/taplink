@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
   chips.innerHTML = Object.entries(WORK_TYPES).map(([k, v]) => `<button type="button" data-type="${k}" class="${k === "all" ? "active" : ""}">${v}</button>`).join("");
   const showWorks = (type) => {
     grid.innerHTML = WORKS.filter((w) => type === "all" || w.type === type).map((w) => `
-      <a class="work" href="../${w.dir}/" target="_blank" rel="noopener">
+      <a class="work" href="${w.dir}/index.html" target="_blank" rel="noopener">
         <img src="assets/thumbs/${w.n}.jpg" alt="" loading="lazy" width="720" height="450">
         <span><b>${w.name}</b><small>${WORK_TYPES[w.type]}</small></span>
       </a>`).join("");
