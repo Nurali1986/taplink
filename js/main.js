@@ -3,10 +3,10 @@ const CONFIG = {
   name: "Nurali Ishburiyev",
   brand: "nurali.dev",
   city: "Toshkent, O'zbekiston",
-  telegram: "username",          // t.me/ dan keyingi qism (@ belgisisiz)
-  instagram: "username",         // instagram.com/ dan keyingi qism
-  phone: "+998 00 000 00 00",
-  photo: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&q=80&auto=format&fit=crop&crop=faces", // o'z rasmingiz: "img/me.jpg"
+  telegram: "nurali050",          // t.me/ dan keyingi qism (@ belgisisiz)
+  instagram: "tizimchibek",         // instagram.com/ dan keyingi qism
+  phone: "+998 99 442 83 58",
+  photo: "assets/photo.jpg", // o'z rasmingiz: "img/me.jpg"
 };
 // ====================================
 
