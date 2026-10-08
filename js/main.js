@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const showSvc = (i) => {
     const s = SERVICES[i];
     $$("button", svcList).forEach((b, j) => { b.classList.toggle("active", j === i); b.setAttribute("aria-selected", j === i); });
-    svcCard.innerHTML = `<img src="../assets/thumbs/${s.img}.jpg" alt="" width="720" height="450">
+    svcCard.innerHTML = `<img src="assets/thumbs/${s.img}.jpg" alt="" width="720" height="450">
       <div class="services__info"><ul>${s.items.map((t) => `<li>${t}</li>`).join("")}</ul>
       <p class="services__price"><b>${s.price} so'm</b> dan · ${s.days}</p>
       <a class="btn btn--yellow btn--sm" href="${tg}?text=${encodeURIComponent(`Assalomu alaykum! "${s.name}" bo'yicha ma'lumot olmoqchiman.`)}" target="_blank" rel="noopener">Buyurtma berish →</a></div>`;
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const showWorks = (type) => {
     grid.innerHTML = WORKS.filter((w) => type === "all" || w.type === type).map((w) => `
       <a class="work" href="../${w.dir}/" target="_blank" rel="noopener">
-        <img src="../assets/thumbs/${w.n}.jpg" alt="" loading="lazy" width="720" height="450">
+        <img src="assets/thumbs/${w.n}.jpg" alt="" loading="lazy" width="720" height="450">
         <span><b>${w.name}</b><small>${WORK_TYPES[w.type]}</small></span>
       </a>`).join("");
   };
