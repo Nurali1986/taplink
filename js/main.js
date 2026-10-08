@@ -1,7 +1,7 @@
 // ====== SHU YERNI O'ZGARTIRING ======
 const CONFIG = {
   name: "Nurali Ishburiyev",
-  brand: "nurali.dev",
+  brand: "tizimchibek",
   city: "Toshkent, O'zbekiston",
   telegram: "nurali050",          // t.me/ dan keyingi qism (@ belgisisiz)
   instagram: "tizimchibek",         // instagram.com/ dan keyingi qism
